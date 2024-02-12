@@ -44,8 +44,8 @@ table {
 	border-spacing: 0;
 }
 
-@font-face {font-family : 'GowunDodum-Regular'; src : url(/reseource/font/GowunDodum-Regular.ttf)}
-@font-face {font-family : 'Parisienne-Regular'; src : url(/reseource/font/Parisienne-Regular.ttf)}
+@font-face {font-family : 'GowunDodum-Regular'; src : url(GowunDodum-Regular.ttf)}
+@font-face {font-family : 'Parisienne-Regular'; src : url(Parisienne-Regular.ttf)}
 
 #wrap {padding: 0 10px; box-sizing: border-box;}
 body .section {text-align: center;}
