@@ -47,26 +47,32 @@ table {
 @font-face {font-family : 'GowunDodum-Regular'; src : url(/reseource/font/GowunDodum-Regular.ttf)}
 @font-face {font-family : 'Parisienne-Regular'; src : url(/reseource/font/Parisienne-Regular.ttf)}
 
+#wrap {padding: 0 10px; box-sizing: border-box;}
 body .section {text-align: center;}
 body .section p.tit {font-family : 'Parisienne-Regular'; color: #b38f93; font-size: 20px; font-weight: 400;}
 
 .intro {position: relative; text-align: center; font-family : 'GowunDodum-Regular';}
-.intro .cont p {font-family : 'GowunDodum-Regular'; font-size: 18px; font-weight: 600; letter-spacing: 27px;}
-.intro .cont p:first-child {position: absolute; left: 36px; top: 45px;}
+/* .intro_bg {background-image: url(/reseource/img/intro_bg.jpg); height: 765px; background-size: 100%;} */
+
+
+.intro .cont {display: flex; position: absolute; top: 40px; width: 100%;}
+.intro .cont p {flex: 1; font-family : 'GowunDodum-Regular'; font-size: 16px; font-weight: 600; letter-spacing: 10px;}
+.intro .cont p:nth-child(2) {letter-spacing: 5px; font-size: 25px;}
+/*.intro .cont p:first-child {position: absolute; left: 36px; top: 45px;}
 .intro .cont p:nth-child(2) {position: absolute; top: 45px; left: 50%; margin-left: -46px; letter-spacing: 5px; font-size: 25px;}
-.intro .cont p:nth-child(3) {position: absolute; right: 36px; top: 45px;}
-.intro .cont span {display: block; font-size: 16px; letter-spacing: normal; color: #b38f93; margin-top: 5px;}
+.intro .cont p:nth-child(3) {position: absolute; right: 36px; top: 45px;}*/
+.intro .cont span {display: block; font-size: 12px; letter-spacing: normal; color: #b38f93; margin-top: 5px;}
 .intro .cont p:nth-child(3) span {letter-spacing: 1.5px;}
-.intro .invi p {font-family : 'GowunDodum-Regular'; font-size: 18px; font-weight: 400; line-height: 35px; margin-top: 30px;}
-.intro .fam {width: 320px; margin: 40px auto;}
-.intro .fam p {font-size: 18px; font-weight: 600; text-align-last: right;}
+.intro .invi > p {font-family : 'GowunDodum-Regular'; font-size: 15px; font-weight: 400; line-height: 35px; margin-top: 30px;}
+.intro .fam {width: 310px; margin: 40px auto;}
+.intro .fam p {font-size: 16px; font-weight: 600; text-align-last: right;}
 .intro .fam p span {font-size: 15px; font-weight: 400; margin-right: 20px;}
 .intro .fam p span.dot {font-size: 30px; margin: 0; vertical-align: text-top; padding: 0 3px;}
 
 .day {margin-top: 100px; position: relative;}
 .day p {font-family : 'GowunDodum-Regular'; font-size: 18px; font-weight: 600; line-height: 30px; margin-top: 30px;}
 .day .calwrap {width: 100%; margin-top: 50px; position: relative;}
-.day table {width: 70%; margin: 0 auto; font-family : 'GowunDodum-Regular'; }
+.day table {width: 100%; margin: 0 auto; font-family : 'GowunDodum-Regular'; }
 .day table thead {font-weight: 600;}
 .day table td {padding: 20px 0 10px;}
 .day p.calheart {position: absolute; top: 208px; right: 81px; width: 30px;}
