@@ -87,3 +87,14 @@ body p {font-family : 'GowunDodum-Regular';}
 .cont_more { display: none; }
 
 .story #morebtn {font-family : 'GowunDodum-Regular'; border: 1px solid #d5c2c3; padding: 5px 10px; border-radius: 10px;}
+
+.gallery {padding: 35px 0; box-sizing: border-box; margin-top: 70px;}
+.gallery p.tit {margin-bottom: 25px;}
+.gallery #button1 {font-family : 'GowunDodum-Regular'; border: 1px solid #d5c2c3; padding: 5px 10px; border-radius: 10px; background: none; margin-top: 20px;}
+.gallery .top_img, .gallery .bot_img {overflow: hidden;}
+.gallery .top_img > div:nth-child(1n), .gallery .bot_img > div:nth-child(1n) {width: 49%; float: left;}
+.gallery .top_img > div:nth-child(2n), .gallery .bot_img > div:nth-child(2n) {width: 48%; margin-left: 10px; float: left;}
+.gallery .contl div {height: 171px;}
+.gallery .contr div {height: 352px;}
+.gallery .contl div img {height: 100%;}
+.gallery .contl div:first-child {margin-bottom: 10px;}
