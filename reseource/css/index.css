@@ -82,7 +82,7 @@ body p {font-family : 'GowunDodum-Regular';}
 .chat_wrap .message-row {width: 100%; display: flex; margin-bottom: 50px;}
 .chat_wrap .message-row-r {justify-content: flex-end;}
 .chat_wrap .message-row img {width: 12vw; height: 12vw; border-radius: 50%; margin-right: 10px;}
-.chat_wrap .que.message-row img {border-radius: 30%;}
+.chat_wrap .que.message-row img {border-radius: 30%; width: 10vw; height: 10vw;}
 .chat_wrap .ms_box {display: flex; align-items: flex-end;}
 .chat_wrap .que .ms_box span {color: #ad868b; font-weight: bold;}
 .chat_wrap .ans .ms_box span {line-height: 20px;}
