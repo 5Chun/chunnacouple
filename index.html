@@ -183,7 +183,7 @@
         <!-- Gallery -->
         <div class="gallery section" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="1200">
             <p class="tit">Gallery</p>
-
+            <input id="check-btn" type="checkbox" />
             <div class="top_img">
                 <div class="contl">
                     <div><a href="reseource/img/story_bg.jpg" data-fancybox><img src="reseource/img/story_bg.jpg" alt=""></a></div>
@@ -200,7 +200,7 @@
                     <div><a href="reseource/img/story_bg.jpg" data-fancybox><img src="reseource/img/story_bg.jpg" alt=""></a></div>
                 </div>
             </div>            
-            <div id="img_more" class="bot_img" style="display: none; margin-top: 10px;">
+            <div id="img_more" class="bot_img" style="margin-top: 10px;">
                 <div class="contl">
                     <div><a href="reseource/img/story_bg.jpg" data-fancybox><img src="reseource/img/story_bg.jpg" alt=""></a></div>
                     <div><a href="reseource/img/story_bg.jpg" data-fancybox><img src="reseource/img/story_bg.jpg" alt=""></a></div>
@@ -216,8 +216,9 @@
                     <div><a href="reseource/img/story_bg.jpg" data-fancybox><img src="reseource/img/story_bg.jpg" alt=""></a></div>
                 </div>
             </div>
+            <label id="morebtn" for="check-btn" onclick='change()'>더보기</label>
             <!-- <a href="javascript:doDisplay();" value="접기" id="button1">접기</a><br/><br/>  -->
-            <button id='button1' onclick="location.href='javascript:doDisplay()'">더보기</button>
+            <!-- <button id='button1' onclick="location.href='javascript:doDisplay()'">더보기</button> -->
         </div>
     </div>
     
