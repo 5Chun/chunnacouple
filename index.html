@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>권오훈 그리고 우한나</title>
+    <title>오훈♡한나 결혼합니다</title>
 
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <link rel="stylesheet" href="reseource/css/index.css">
     <!-- <link rel="stylesheet" href="reseource/css/sakura.css"> -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+    <script src="reseource/js/index.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
     <!-- <script src="reseource/js/sakura.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
@@ -41,7 +41,6 @@
         <div class="day section" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="1200">
             <p class="tit">Wedding Day</p>
             <p>2024. 06. 08 토요일 오전 11시<br>Sat, 8, Jun, 2024</p>
-            <!-- <p class="calheart"><img src="reseource/img/calheart.png" alt=""></p> -->
             <div class="calwrap">
                 <table>
                     <thead>
@@ -111,7 +110,7 @@
             </div>        
         </div>
 
-       <!-- Interview -->
+        <!-- Interview -->
         <div class="story" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="1200">
             <p class="tit">Interview</p>
             <p>우리의 이야기</p>
@@ -148,7 +147,7 @@
                 </div>
                 <div class="ans message-row message-row-r" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="2100">                    
                     <div class="ms_box">
-                        <span class="ms_bubble">긴 시간 연애를 해오며 신랑은 제게 더 행복한<br>삶을 선물해주고 싶다고 말해왔습니다.<br>섬세하고 따뜻한 이 사람이라면 더 행복하게<br>평생을 함께할 수 있다는 확신이 들었습니다.</span>
+                        <span class="ms_bubble">긴 시간 연애를 해오며 신랑은 제게 더 행복한<br>삶을 선물해주고 싶다고 말해왔습니다.<br>제게 한없이 섬세하고 따뜻한 이 사람과 함께라면<br>평생을 같이 보낼 수 있겠다는 확신이 들었습니다.</span>
                     </div>
                     <img src="reseource/img/story_woo.jpg">
                 </div>
@@ -219,44 +218,10 @@
             <!-- <a href="javascript:doDisplay();" value="접기" id="button1">접기</a><br/><br/>  -->
             <!-- <button id='button1' onclick="location.href='javascript:doDisplay()'">더보기</button> -->
         </div>
-    </div>
-    
+    </div> 
 
     <script>
-        // const sakura = new Sakura('body');
         AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
-        
-        // 인터뷰 펼침 코드
-        const subs = document.getElementById("morebtn")
-        subs.addEventListener("click", function() {
-            if(subs.innerText === '더보기') {
-                subs.innerText = '닫기';
-            } else subs.innerText ='더보기';
-        });
-
-        Fancybox.bind("[data-fancybox]", { 
-            // Your options go here 
-        });
-
-        // 갤러리 펼침 코드
-        var bDisplay = true; function doDisplay(){ 	
-            var con = document.getElementById("img_more"); 	
-            if(con.style.display=='none'){ 		
-                con.style.display = 'block';
-            }else{
-                con.style.display = 'none';
-            }
-        }
-        $(function() {
-            $('#button1').click( function() {
-                if( $(this).html() == '더보기' ) {
-                $(this).html('닫기');
-                }
-                else {
-                $(this).html('더보기');
-                }
-            });
-        });
     </script>
 </body>
 </html>
