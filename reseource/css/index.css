@@ -44,8 +44,8 @@ table {
 	border-spacing: 0;
 }
 
-@font-face {font-family : 'GowunDodum-Regular'; src : url(/reseource/font/GowunDodum-Regular.ttf)}
-@font-face {font-family : 'Parisienne-Regular'; src : url(/reseource/font/Parisienne-Regular.ttf)}
+@font-face {font-family : 'GowunDodum-Regular'; src : url(../font/GowunDodum-Regular.ttf)}
+@font-face {font-family : 'Parisienne-Regular'; src : url(../font/Parisienne-Regular.ttf)}
 
 body .section {text-align: center; padding: 0 10px; box-sizing: border-box;}
 body p.tit {font-family : 'Parisienne-Regular'; color: #b38f93; font-size: 20px; font-weight: 400;}
@@ -76,7 +76,7 @@ body p {font-family : 'GowunDodum-Regular';}
 .day table td {padding: 20px 0 10px;}
 .day p.calheart {position: absolute; top: 208px; right: 81px; width: 30px;}
 
-.story {background-image: url(reseource/img/story_bg.jpg); background-repeat: no-repeat; background-size: cover;padding: 35px 10px; box-sizing: border-box; margin-top: 70px; text-align: center;}
+.story {background-image: url(../img/story_bg.jpg); background-repeat: no-repeat; background-size: cover;padding: 35px 10px; box-sizing: border-box; margin-top: 70px; text-align: center;}
 .story .tit+p {padding: 15px 0 25px; font-size: 25px; border-bottom: 1px dashed #d7d7d7;}
 .chat_wrap {margin-top: 30px; display: flex; flex-direction: column; align-items: center; font-family : 'GowunDodum-Regular';}
 .chat_wrap .message-row {width: 100%; display: flex; margin-bottom: 50px;}
