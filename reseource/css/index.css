@@ -44,16 +44,14 @@ table {
 	border-spacing: 0;
 }
 
-@font-face {font-family : 'GowunDodum-Regular'; src : url(reseource/font/GowunDodum-Regular.ttf)}
-@font-face {font-family : 'Parisienne-Regular'; src : url(reseource/font/Parisienne-Regular.ttf)}
+@font-face {font-family : 'GowunDodum-Regular'; src : url(/reseource/font/GowunDodum-Regular.ttf)}
+@font-face {font-family : 'Parisienne-Regular'; src : url(/reseource/font/Parisienne-Regular.ttf)}
 
-#wrap {padding: 0 10px; box-sizing: border-box;}
-body .section {text-align: center;}
+body .section {text-align: center; padding: 0 10px; box-sizing: border-box;}
 body p.tit {font-family : 'Parisienne-Regular'; color: #b38f93; font-size: 20px; font-weight: 400;}
 body p {font-family : 'GowunDodum-Regular';}
 
 .intro {position: relative; text-align: center;}
-/* .intro_bg {background-image: url(/reseource/img/intro_bg.jpg); height: 765px; background-size: 100%;} */
 
 
 .intro .cont {display: flex; position: absolute; top: 40px; width: 100%;}
@@ -107,3 +105,5 @@ body p {font-family : 'GowunDodum-Regular';}
 #check-btn:checked ~ #img_more { display: block; } 
 #img_more {display: none;}
 .gallery #morebtn {font-family : 'GowunDodum-Regular'; border: 1px solid #d5c2c3; padding: 5px 10px; border-radius: 10px; background: none; margin-top: 20px;}
+
+
