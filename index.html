@@ -8,6 +8,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <link rel="stylesheet" href="reseource/css/index.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
 
     <link rel="stylesheet" href="reseource/css/unite-gallery.css">
     <script src="reseource/js/ug-theme-tiles.js"></script>
@@ -15,6 +16,7 @@
     <script src="reseource/js/ug-theme-tilesgrid.js"></script>
     
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 </head>
 <body>
     <div id="wrap">
@@ -244,6 +246,16 @@
                     data-thumb-mobile="reseource/img/MSK_6909.jpg"
                     style="display:none">
             </div>
+            
+            <div style="margin-top: 100px;">
+                <p>이건 팬시박스</p>
+                <ul>
+                    <li><a data-fancybox="kwon" href="reseource/img/MSK_6909.jpg"><img src="reseource/img/MSK_6909.jpg" alt=""></a></li>
+                    <li><a data-fancybox="kwon" href="reseource/img/MSK_7206.jpg"><img src="reseource/img/MSK_7206.jpg" alt=""></a></li>
+                    <li><a data-fancybox="kwon" href="reseource/img/MSK_6994.jpg"><img src="reseource/img/MSK_6994.jpg" alt=""></a></li>
+                </ul>
+            </div>
+            
             <!-- <input id="check-btn" type="checkbox" />-->
             <!-- <label id="morebtn" for="check-btn" onclick='change()'>더보기</label> -->
             <!-- <a href="javascript:doDisplay();" value="접기" id="button1">접기</a><br/><br/> 
@@ -253,6 +265,13 @@
 
     <script>
         AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
+        
+        Fancybox.bind('[data-fancybox="kwon"]', { 
+            Slideshow: {
+          playOnStart: true,
+        },
+        });
+        
         jQuery(document).ready(function(){    
             jQuery("#gallery_wrap").unitegallery({});
         });
