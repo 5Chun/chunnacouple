@@ -10,6 +10,12 @@
     <!-- <link rel="stylesheet" href="reseource/css/sakura.css"> -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+
+    <link rel="stylesheet" href="reseource/css/unite-gallery.css">
+    <script src="reseource/js/ug-theme-tiles.js"></script>
+    <script src="reseource/js/unitegallery.min.js"></script>
+    <script src="reseource/js/ug-theme-tilesgrid.js"></script>
+
     <script src="reseource/js/index.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
     <!-- <script src="reseource/js/sakura.js"></script> -->
@@ -181,47 +187,86 @@
         <!-- Gallery -->
         <div class="gallery section" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="1200">
             <p class="tit">Gallery</p>
-            <input id="check-btn" type="checkbox" />
-            <div class="top_img">
-                <div class="contl">
-                    <div><a href="reseource/img/story_bg.jpg" data-fancybox><img src="reseource/img/story_bg.jpg" alt=""></a></div>
-                    <div><a href="reseource/img/story_bg.jpg" data-fancybox><img src="reseource/img/story_bg.jpg" alt=""></a></div>
-                </div>
-                <div class="contr">
-                    <div><a href="reseource/img/intro_bg.jpg" data-fancybox><img src="reseource/img/intro_bg.jpg" alt=""></a></div>
-                </div>
-                <div class="contr" style="margin-top: 10px;">
-                    <div><a href="reseource/img/intro_bg.jpg" data-fancybox><img src="reseource/img/intro_bg.jpg" alt=""></a></div>
-                </div>
-                <div class="contl" style="margin-top: 10px;">
-                    <div><a href="reseource/img/story_bg.jpg" data-fancybox><img src="reseource/img/story_bg.jpg" alt=""></a></div>
-                    <div><a href="reseource/img/story_bg.jpg" data-fancybox><img src="reseource/img/story_bg.jpg" alt=""></a></div>
-                </div>
-            </div>            
-            <div id="img_more" class="bot_img" style="margin-top: 10px;">
-                <div class="contl">
-                    <div><a href="reseource/img/story_bg.jpg" data-fancybox><img src="reseource/img/story_bg.jpg" alt=""></a></div>
-                    <div><a href="reseource/img/story_bg.jpg" data-fancybox><img src="reseource/img/story_bg.jpg" alt=""></a></div>
-                </div>
-                <div class="contr">
-                    <div><a href="reseource/img/intro_bg.jpg" data-fancybox><img src="reseource/img/intro_bg.jpg" alt=""></a></div>
-                </div>
-                <div class="contr" style="margin-top: 10px;">
-                    <div><a href="reseource/img/intro_bg.jpg" data-fancybox><img src="reseource/img/intro_bg.jpg" alt=""></a></div>
-                </div>
-                <div class="contl" style="margin-top: 10px;">
-                    <div><a href="reseource/img/story_bg.jpg" data-fancybox><img src="reseource/img/story_bg.jpg" alt=""></a></div>
-                    <div><a href="reseource/img/story_bg.jpg" data-fancybox><img src="reseource/img/story_bg.jpg" alt=""></a></div>
-                </div>
+            <div id="gallery_wrap" style="display:none;">
+                <img alt=""
+                     src="reseource/img/story_kwon.jpg"
+                     data-image="reseource/img/story_kwon.jpg"
+                     data-image-mobile="reseource/img/story_kwon.jpg"
+                     data-thumb-mobile="reseource/img/story_kwon.jpg"
+                     style="display:none">
+                <img alt=""
+                    src="reseource/img/MSK_6909.jpg"
+                    data-image="reseource/img/MSK_6909.jpg"
+                    data-image-mobile="reseource/img/MSK_6909.jpg"
+                    data-thumb-mobile="reseource/img/MSK_6909.jpg"
+                    style="display:none">
+                <img alt=""
+                    src="reseource/img/MSK_6994.jpg"
+                    data-image="reseource/img/MSK_6994.jpg"
+                    data-image-mobile="reseource/img/MSK_6994.jpg"
+                    data-thumb-mobile="reseource/img/MSK_6994.jpg"
+                    style="display:none">
+                    <img alt=""
+                    src="reseource/img/MSK_7206.jpg"
+                    data-image="reseource/img/MSK_7206.jpg"
+                    data-image-mobile="reseource/img/MSK_7206.jpg"
+                    data-thumb-mobile="reseource/img/MSK_7206.jpg"
+                    style="display:none">
+                <img alt=""
+                    src="reseource/img/MSK_7206.jpg"
+                    data-image="reseource/img/MSK_7206.jpg"
+                    data-image-mobile="reseource/img/MSK_7206.jpg"
+                    data-thumb-mobile="reseource/img/MSK_7206.jpg"
+                    style="display:none">
+                    <img alt=""
+                    src="reseource/img/MSK_7206.jpg"
+                    data-image="reseource/img/MSK_7206.jpg"
+                    data-image-mobile="reseource/img/MSK_7206.jpg"
+                    data-thumb-mobile="reseource/img/MSK_7206.jpg"
+                    style="display:none">
+                <img alt=""
+                    src="reseource/img/MSK_7206.jpg"
+                    data-image="reseource/img/MSK_7206.jpg"
+                    data-image-mobile="reseource/img/MSK_7206.jpg"
+                    data-thumb-mobile="reseource/img/MSK_7206.jpg"
+                    style="display:none">
+                <img alt=""
+                    src="reseource/img/MSK_7206.jpg"
+                    data-image="reseource/img/MSK_7206.jpg"
+                    data-image-mobile="reseource/img/MSK_7206.jpg"
+                    data-thumb-mobile="reseource/img/MSK_7206.jpg"
+                    style="display:none">
+                <img alt=""
+                    src="reseource/img/MSK_7206.jpg"
+                    data-image="reseource/img/MSK_7206.jpg"
+                    data-image-mobile="reseource/img/MSK_7206.jpg"
+                    data-thumb-mobile="reseource/img/MSK_7206.jpg"
+                    style="display:none">
+                <img alt=""
+                    src="reseource/img/MSK_6909.jpg"
+                    data-image="reseource/img/MSK_6909.jpg"
+                    data-image-mobile="reseource/img/MSK_6909.jpg"
+                    data-thumb-mobile="reseource/img/MSK_6909.jpg"
+                    style="display:none">
             </div>
-            <label id="morebtn" for="check-btn" onclick='change()'>더보기</label>
-            <!-- <a href="javascript:doDisplay();" value="접기" id="button1">접기</a><br/><br/>  -->
-            <!-- <button id='button1' onclick="location.href='javascript:doDisplay()'">더보기</button> -->
+            <!-- <input id="check-btn" type="checkbox" />-->
+            <!-- <label id="morebtn" for="check-btn" onclick='change()'>더보기</label> -->
+            <!-- <a href="javascript:doDisplay();" value="접기" id="button1">접기</a><br/><br/> 
+            <button id='button1' onclick="location.href='javascript:doDisplay()'">더보기</button> -->
         </div>
-    </div> 
+    </div>
 
     <script>
         AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
+
+        jQuery(document).ready(function(){    
+            jQuery("#gallery_wrap").unitegallery({
+                theme_panel_position: "bottom",
+                thumb_width:88,								//thumb width
+                thumb_height:50,							//thumb height
+                thumb_fixed_size:true,						//true,false - fixed/dynamic thumbnail width	
+            });
+        });
     </script>
 </body>
 </html>
