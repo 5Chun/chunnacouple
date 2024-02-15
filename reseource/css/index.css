@@ -55,7 +55,7 @@ body p {font-family : 'GowunDodum-Regular';}
 
 .intro .cont {display: flex; position: absolute; top: 40px; width: 100%;}
 .intro .cont p {flex: 1; font-size: 16px; font-weight: 600; letter-spacing: 10px;}
-.intro .cont p:nth-child(2) {letter-spacing: 5px; font-size: 25px;}
+.intro .cont p:nth-child(2) {letter-spacing: 2px; font-size: 25px; font-weight: normal;}
 /*.intro .cont p:first-child {position: absolute; left: 36px; top: 45px;}
 .intro .cont p:nth-child(2) {position: absolute; top: 45px; left: 50%; margin-left: -46px; letter-spacing: 5px; font-size: 25px;}
 .intro .cont p:nth-child(3) {position: absolute; right: 36px; top: 45px;}*/
