@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>오훈♡한나 결혼합니다</title>
-
+    
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <link rel="stylesheet" href="reseource/css/index.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
 
     <link rel="stylesheet" href="reseource/css/unite-gallery.css">
     <script src="reseource/js/ug-theme-tiles.js"></script>
     <script src="reseource/js/unitegallery.min.js"></script>
     <script src="reseource/js/ug-theme-tilesgrid.js"></script>
-    
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
 </head>
 <body>
     <div id="wrap">
@@ -223,7 +225,7 @@
 
     <script>
         AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
-        
+
         Fancybox.bind('[data-fancybox="kwon"]', {
             compact: false,
             Carousel: {
@@ -238,6 +240,7 @@
             }
         });
         
+
         jQuery(document).ready(function(){    
             jQuery("#gallery_wrap").unitegallery({});
         });
