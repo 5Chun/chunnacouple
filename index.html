@@ -11,11 +11,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
 
-    <link rel="stylesheet" href="reseource/css/unite-gallery.css">
-    <script src="reseource/js/ug-theme-tiles.js"></script>
-    <script src="reseource/js/unitegallery.min.js"></script>
-    <script src="reseource/js/ug-theme-tilesgrid.js"></script>
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
@@ -43,8 +38,8 @@
                 <p>저희의 시작인 첫걸음에 함께 하시어 진실한 모습으로<br>아름답고 행복한 가정 가꾸어 나갈 수 있도록<br>응원하고 축복해 주시면 감사하겠습니다.</p>
 
                 <div class="fam">
-                    <p>권영진<span class="dot">&#183;</span>김정옥<span>의 장남</span>신랑 권오훈</p>
-                    <p>이영자<span style="margin: 0;">의 손녀</span><span class="dot">&#183;</span>우상오<span>의 장녀</span>신부 우한나</p>
+                    <p>권영진<span class="dot">&#183;</span>김정옥<span>의 장남</span>권오훈</p>
+                    <p>이영자<span style="margin: 0;">의 손녀</span><span class="dot">&#183;</span>우상오<span>의 장녀</span>우한나</p>
                 </div>
             </div>        
         </div>
@@ -193,20 +188,18 @@
         <div class="gallery section" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="1200">
             <p class="tit">Gallery</p>
             <div class="gallery_wrap">
-                <!-- <div class="gallery_div">
+                <div class="gallery_div">
                     <ul>
                         <li><a data-fancybox="kwon" href="reseource/img/MSK_6909.jpg"><img src="reseource/img/MSK_6909.jpg" alt="" ></a></li>
                         <li><a data-fancybox="kwon" href="reseource/img/MSK_7206.jpg"><img src="reseource/img/MSK_7206.jpg" alt="" ></a></li>
-                        <li><a data-fancybox="kwon" href="reseource/img/MSK_6994.jpg"><img src="reseource/img/MSK_6994.jpg" alt="" ></a></li>
-                        <li><a data-fancybox="kwon" href="reseource/img/MSK_6994.jpg"><img src="reseource/img/MSK_7206.jpg" alt="" ></a></li>
-                        <li><a data-fancybox="kwon" href="reseource/img/MSK_6994.jpg"><img src="reseource/img/MSK_6994.jpg" alt="" ></a></li>
-                        <li><a data-fancybox="kwon" href="reseource/img/MSK_6994.jpg"><img src="reseource/img/MSK_7206.jpg" alt="" ></a></li>
-                        <li><a data-fancybox="kwon" href="reseource/img/MSK_6994.jpg"><img src="reseource/img/MSK_6994.jpg" alt="" ></a></li>
-                        <li><a data-fancybox="kwon" href="reseource/img/MSK_6994.jpg"><img src="reseource/img/MSK_7206.jpg" alt="" ></a></li>
+                        <li><a data-fancybox="kwon" href="reseource/img/MSK_6909.jpg"><img src="reseource/img/MSK_6909.jpg" alt="" ></a></li>
+                        <li><a data-fancybox="kwon" href="reseource/img/MSK_7206.jpg"><img src="reseource/img/MSK_7206.jpg" alt="" ></a></li>
+                        <li><a data-fancybox="kwon" href="reseource/img/MSK_6909.jpg"><img src="reseource/img/MSK_6909.jpg" alt="" ></a></li>
+                        <li><a data-fancybox="kwon" href="reseource/img/MSK_7206.jpg"><img src="reseource/img/MSK_7206.jpg" alt="" ></a></li>
+                        <li><a data-fancybox="kwon" href="reseource/img/MSK_6909.jpg"><img src="reseource/img/MSK_6909.jpg" alt="" ></a></li>
+                        <li><a data-fancybox="kwon" href="reseource/img/MSK_7206.jpg"><img src="reseource/img/MSK_7206.jpg" alt="" ></a></li>
                     </ul>                    
-                </div> -->
-
-
+                </div>
             </div>
         </div>
     </div>
@@ -214,24 +207,19 @@
     <script>
         AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
 
-        // Fancybox.bind('[data-fancybox="kwon"]', {
-        //     compact: false,
-        //     Carousel: {
-        //     Navigation : false
-        //     },
-        //     Toolbar: {
-        //     display: {
-        //         left: [],
-        //         middle: ["prev", "infobar", "next"],
-        //         right: ["close"],
-        //     }
-        //     }
-        // });
-        
-
-        // jQuery(document).ready(function(){    
-        //     jQuery("#gallery_wrap").unitegallery({});
-        // });
+        Fancybox.bind('[data-fancybox="kwon"]', {
+            compact: false,
+            Carousel: {
+            Navigation : false
+            },
+            Toolbar: {
+            display: {
+                left: [],
+                middle: ["prev", "infobar", "next"],
+                right: ["close"],
+            }
+            }
+        });
     </script>
 </body>
 </html>
