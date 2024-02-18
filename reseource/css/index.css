@@ -122,7 +122,7 @@ body p, body span, body button, body a {font-family : 'GowunDodum-Regular';}
 .bank_cont ul li.copybank a {padding: 7px 0 8px 72px; box-sizing: border-box;}
 
 
-.swiper-wrapper .autoheight {height: 575px !important; overflow: hidden;}
+.swiper-wrapper .autoheight {height: auto !important; overflow: hidden;}
 .swiper-wrapper .autoheight img {width: 100% !important; height: 100%;}
 
 
