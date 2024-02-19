@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+a {
+	display: block;
+	text-decoration: none;
+	color: black;}
+body {
+	line-height: 1;
+    width: 100%;
+}
+body img {width: 100%;}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {font-family : 'GowunDodum-Regular'; src : url(../font/GowunDodum-Regular.ttf)}
+@font-face {font-family : 'Parisienne-Regular'; src : url(../font/Parisienne-Regular.ttf)}
+
+body .section {text-align: center; padding: 0 10px; box-sizing: border-box;}
+body p.tit {font-family : 'Parisienne-Regular'; color: #b38f93; font-size: 15px; font-weight: 400;}
+body p, body span, body button, body a {font-family : 'GowunDodum-Regular';}
+
+.intro {position: relative; text-align: center;}
+.intro .invi {margin-top: 60px;}
+.intro .hall {margin-top: 20px; font-weight: bold; line-height: 25px;}
+.intro .poetry_bg {width: 100%; height: 22px; margin-top: 30px; background-image: url(../img/poetry_bg.png); background-size: 100%;}
+.intro .poetry_wrap {background: #f9f9f9; padding-bottom: 35px; overflow: hidden; }
+.intro .poetry > img {width: 100%;}
+.intro .poetry p {font-size: 16px; line-height: 30px; text-decoration: underline; color: #686868; margin-top: 30px;}
+.intro .invi_cont p {font-size: 16px; line-height: 30px; color: #686868; margin-top: 30px;}
+.intro .fam {width: 100%; margin-top: 40px; display: grid; grid-template-columns: 1fr; place-items: center;}
+.intro .fam p {flex: 1; font-size: 16px; font-weight: 600; text-align-last: right; line-height: 30px;}
+.intro .fam p span {font-size: 13px; font-weight: 400; margin-right: 20px;}
+.intro .fam p span.dot {font-size: 25px; margin: 0; vertical-align: text-top; padding: 0 3px;}
+.intro .poetry_bg2 {width: 100%; height: 22px; background-image: url(../img/poetry_bg2.png); background-size: 100%;}
+
+.day {margin-top: 60px; position: relative;}
+.day p {font-size: 18px; font-weight: 600; line-height: 30px; margin-top: 30px;}
+.day .calwrap {width: 100%; margin-top: 50px; position: relative;}
+.day table {width: 100%; margin: 0 auto;}
+.day table thead {font-weight: 600;}
+.day table td {padding: 20px 0 10px;}
+.day p.calheart {position: absolute; top: 208px; right: 81px; width: 30px;}
+.d-day img {margin: 0 10px;}
+.d-day span {font-size: 20px; color: red; font-weight: bold;}
+
+.story {background-image: url(../img/story_bg.jpg); background-position: center; background-repeat: no-repeat; background-size: cover; padding: 35px 10px; box-sizing: border-box; margin-top: 60px; text-align: center;}
+.story .tit+p {padding: 15px 0 25px; font-size: 25px; border-bottom: 1px dashed #d7d7d7;}
+.chat_wrap {margin-top: 30px; display: flex; flex-direction: column; align-items: center; font-family : 'GowunDodum-Regular';}
+.chat_wrap .message-row {width: 100%; display: flex; margin-bottom: 50px;}
+.chat_wrap .message-row-r {justify-content: flex-end;}
+.chat_wrap .message-row img {width: 12vw; height: 12vw; border-radius: 50%; margin-right: 10px;}
+.chat_wrap .que.message-row img {width: 10vw; height: 10vw; border-radius: 30%;}
+.chat_wrap .ms_box {display: flex; align-items: flex-end;}
+.chat_wrap .que .ms_box span {color: #ad868b; font-weight: bold;}
+.chat_wrap .ans .ms_box span {line-height: 20px;}
+.chat_wrap .ms_bubble {text-align-last: left; background-color: white; padding: 2.5vw 3vw; border-radius: 0 12px 12px 12px; margin-right: 5px; font-size: 3vw;}
+.chat_wrap .message-row-r .ms_bubble {background: #fee500; border-radius: 12px 0 12px 12px;}
+
+
+.gallery {padding: 0 10px  !important; box-sizing: border-box; margin-top: 60px;}
+.gallery p.tit {margin-bottom: 25px;}
+#gallery_wrap .ug-lightbox .ug-lightbox-button-close {top: 20px !important; left: 400px !important;}
+
+
+
+.bank_wrap {background: #fafafa; margin-top: 60px; padding: 35px 10px !important; box-sizing: border-box;}
+.bank_wrap .tit {padding: 15px 0 25px; border-bottom: 1px dashed #d7d7d7;}
+.bank_wrap .tit+p {line-height: 35px; margin-top: 25px;}
+.bank_wrap button {border: none; background: none;}
+.bank_box {width: 100%; border: 1px solid #e2e4ea; text-align-last: left; background: #f0f1f3; margin-top: 30px;}
+.bank_box .title {padding: 8px 10px; box-sizing: border-box; display:block;background:url('../img/bank_arrowdown.png') no-repeat 98% center; background-size: 15px 10px; margin-top:-1px;}
+.bank_box .title.on {display:block;background:url('../img/bank_arrowup.png') no-repeat 98% center; background-size: 15px 10px; margin-top:-1px;}
+/* .bank_box .title::after {content: ""; background-image: url(../img/bank_arrowdown.png); position: absolute; top: 50%; right: 10px; margin-top: -4px; width: 15px; height: 10px; background-repeat: no-repeat; background-size: 100%;} */
+.bank_box p {font-size: 17px; font-weight: bold; line-height: 25px;}
+.bank_box span {font-size: 13px; margin-right: 5px; font-weight: normal;}
+.bank_box p:nth-child(2) span {font-size: 17px; margin-left: 10px; }
+.bank_cont {display: none;}
+.bank_cont div {padding: 17px 10px; box-sizing: border-box;}
+.bank_cont div:first-child {border-top: 1px solid #b38f93; border-bottom: 1px solid #b38f93;}
+.bank_cont ul {display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 12px;}
+.bank_cont ul li {width: 100%; border-radius: 5px; font-weight: bold;}
+/* .bank_cont ul li a {padding: 5px 20px; box-sizing: border-box;} */
+.bank_cont ul li.kakaopay {background: #fff000; background-image: url(../img/kakaopay.png); background-size: auto 15px; background-repeat: no-repeat; background-position: 23px 50%;}
+.bank_cont ul li.kakaopay a {padding: 7px 0 8px 81px; box-sizing: border-box;}
+.bank_cont ul li.copybank {background: white; background-image: url(../img/copyicon.png); background-size: auto 18px; background-repeat: no-repeat; background-position: 45px 50%;}
+.bank_cont ul li.copybank a {padding: 7px 0 8px 72px; box-sizing: border-box;}
+
+
+.swiper-wrapper .autoheight {height: auto !important; overflow: hidden;}
+.swiper-wrapper .autoheight img {width: 100% !important; height: 100%;}
+
+
