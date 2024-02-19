@@ -61,11 +61,11 @@ $( document ).ready(function() {
     document.execCommand('copy');
     document.body.removeChild(t);
     }
-    $('#fa_btn').click(function() {
+    $('#kfa_btn').click(function() {
     copyToClipboard('1234561234567');
     alert('계좌번호를 복사하였습니다');
     });
-    $('#son_btn').click(function() {
+    $('#kwon_btn').click(function() {
     copyToClipboard('85720100043507');
     alert('계좌번호를 복사하였습니다');
     });
