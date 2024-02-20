@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="reseource/css/unite-gallery.css">
     <script src="reseource/js/ug-theme-tiles.js"></script>
     <script src="reseource/js/unitegallery.min.js"></script>
-    <script src="reseource/js/ug-theme-tilesgrid.js"></script>
+    <!-- <script src="reseource/js/ug-theme-tilesgrid.js"></script>
+    <script src="reseource/js/ug-theme-slider.js"></script> -->
     
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="reseource/css/swiper/swiper-bundle.css"> -->
@@ -377,18 +378,18 @@
                         <div class="child">
                             <p><span>신랑</span>권오훈</p>
                             <p>국민은행<span>857201-00-043507</span></p>
-                            <ul>
-                                <li class="kakaopay"><a href="https://qr.kakaopay.com/Ej73LcYGS">카카오페이 송금</a></li>
-                                <li class="copybank"><a id="kwon_btn" onclick="copyToClipboard();" title="계좌번호 복사">계좌번호 복사</a></li>
-                            </ul>                            
+                            <div class="btn">
+                                <button class="kakaopay"><a href="https://qr.kakaopay.com/Ej73LcYGS">카카오페이 송금</a></button>
+                                <button class="copybank"><a id="kwon_btn" onclick="copyToClipboard();" title="계좌번호 복사">계좌번호 복사</a></button>
+                            </div>                           
                         </div>
                         <div class="parents">
                             <p><span>아버지</span>권영진</p>
                             <p>신협<span>1307-00-324052</span></p>
-                            <ul>
-                                <li class="kakaopay"><a href="">카카오페이 송금</a></li>
-                                <li class="copybank"><a id="kfa_btn" onclick="copyToClipboard();" title="계좌번호 복사">계좌번호 복사</a></li>
-                            </ul>
+                            <div class="btn">
+                                <button class="kakaopay"><a href="https://qr.kakaopay.com/Ej73LcYGS">카카오페이 송금</a></button>
+                                <button class="copybank"><a id="kfa_btn" onclick="copyToClipboard();" title="계좌번호 복사">계좌번호 복사</a></button>
+                            </div>
                         </div>                        
                     </div>   
                 </div>
@@ -398,18 +399,18 @@
                         <div class="child">
                             <p><span>신랑</span>우한나</p>
                             <p>카카오뱅크<span>3333-06-5929385</span></p>
-                            <ul>
-                                <li class="kakaopay"><a href="https://qr.kakaopay.com/Ej73LcYGS">카카오페이 송금</a></li>
-                                <li class="copybank"><a id="woo_btn" onclick="copyToClipboard();" title="계좌번호 복사">계좌번호 복사</a></li>
-                            </ul>                            
+                            <div class="btn">
+                                <button class="kakaopay"><a href="https://qr.kakaopay.com/Ej73LcYGS">카카오페이 송금</a></button>
+                                <button class="copybank"><a id="woo_btn" onclick="copyToClipboard();" title="계좌번호 복사">계좌번호 복사</a></button>
+                            </div>
                         </div>
                         <div class="parents">
                             <p><span>아버지</span>우상오</p>
                             <p>농협<span>356-1545-2419-53</span></p>
-                            <ul>
-                                <li class="kakaopay"><a href="">카카오페이 송금</a></li>
-                                <li class="copybank"><a id="wfa_btn" onclick="copyToClipboard();" title="계좌번호 복사">계좌번호 복사</a></li>
-                            </ul>
+                            <div class="btn">
+                                <button class="kakaopay"><a href="https://qr.kakaopay.com/Ej73LcYGS">카카오페이 송금</a></button>
+                                <button class="copybank"><a id="wfa_btn" onclick="copyToClipboard();" title="계좌번호 복사">계좌번호 복사</a></button>
+                            </div>
                         </div>
                     </div>   
                 </div>
@@ -420,8 +421,12 @@
     <script>
         AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
 
-        jQuery(document).ready(function(){    
-            jQuery("#gallery_wrap").unitegallery({});
+        jQuery(document).ready(function(){
+
+            jQuery("#gallery_wrap").unitegallery({
+                tiles_type:"justified"
+            });
+
         });
 
         var swiper = new Swiper(".mySwiper", {
