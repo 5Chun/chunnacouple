@@ -11,16 +11,26 @@
     <script src="reseource/js/index.js"></script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>     
+
+    <link rel="stylesheet" href="reseource/css/unite-gallery.css">
+    <script src="reseource/js/ug-theme-tiles.js"></script>
+    <script src="reseource/js/unitegallery.min.js"></script>
+    <script src="reseource/js/ug-theme-tilesgrid.js"></script>
     
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="reseource/css/swiper/swiper-bundle.css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="reseource/css/swiper/swiper-bundle.css"> -->
 
 </head>
 <body>
     <div id="wrap">
         <!-- Intro-Start -->
-        <div class="intro">
-            <div class="intro_bg"><img src="reseource/img/intro_bg.jpg" alt=""></div>
+        <div class="intro">            
+            <div class="intro_bg">
+                <div>
+                    <p>Happy</p>
+                    <p>Our Wedding</p>
+                </div>
+            </div>
             <div class="invi" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                 <p class="tit" style="padding: 0 10px; box-sizing: border-box;">Invitation</p>
                 <div class="hall" style="padding: 0 10px; box-sizing: border-box;">
@@ -200,7 +210,8 @@
         <!-- Gallery-Start -->
         <div class="gallery section" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="1200">
             <p class="tit">Gallery</p>    
-            <div class="swiper mySwiper" style="padding: 0 50px 50px 50px; box-sizing: border-box;">
+            <!-- Gallery1-Start -->
+            <!-- <div class="swiper mySwiper" style="padding: 0 50px 50px 50px; box-sizing: border-box;">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide autoheight">
                         <img src="reseource/img/gallery/gallery_01.jpg" />
@@ -234,70 +245,84 @@
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
-            </div>
-            <!-- Gallery2-End -->        
-            <!-- <div id="gallery_wrap" style="display:none;">
+            </div> -->
+            <!-- Gallery1-End -->        
+
+            <!-- Gallery2-Start -->
+            <div id="gallery_wrap" style="display:none;">
                 <img alt=""
-                     src="reseource/img/story_kwon.jpg"
-                     data-image="reseource/img/story_kwon.jpg"
-                     data-image-mobile="reseource/img/story_kwon.jpg"
-                     data-thumb-mobile="reseource/img/story_kwon.jpg"
+                     src="reseource/img/gallery/gallery_01.jpg"
+                     data-image="reseource/img/gallery/gallery_01.jpg"
+                     data-image-mobile="reseource/img/gallery/gallery_01.jpg"
+                     data-thumb-mobile="reseource/img/gallery/gallery_01.jpg"
                      style="display:none">
                 <img alt=""
-                    src="reseource/img/MSK_6909.jpg"
-                    data-image="reseource/img/MSK_6909.jpg"
-                    data-image-mobile="reseource/img/MSK_6909.jpg"
-                    data-thumb-mobile="reseource/img/MSK_6909.jpg"
+                    src="reseource/img/gallery/gallery_02.jpg"
+                    data-image="reseource/img/gallery/gallery_02.jpg"
+                    data-image-mobile="reseource/img/gallery/gallery_02.jpg"
+                    data-thumb-mobile="reseource/img/gallery/gallery_02.jpg"
                     style="display:none">
                 <img alt=""
-                    src="reseource/img/MSK_6994.jpg"
-                    data-image="reseource/img/MSK_6994.jpg"
-                    data-image-mobile="reseource/img/MSK_6994.jpg"
-                    data-thumb-mobile="reseource/img/MSK_6994.jpg"
+                    src="reseource/img/gallery/gallery_03.jpg"
+                    data-image="reseource/img/gallery/gallery_03.jpg"
+                    data-image-mobile="reseource/img/gallery/gallery_03.jpg"
+                    data-thumb-mobile="reseource/img/gallery/gallery_03.jpg"
                     style="display:none">
                     <img alt=""
-                    src="reseource/img/MSK_7206.jpg"
-                    data-image="reseource/img/MSK_7206.jpg"
-                    data-image-mobile="reseource/img/MSK_7206.jpg"
-                    data-thumb-mobile="reseource/img/MSK_7206.jpg"
+                    src="reseource/img/gallery/gallery_04.jpg"
+                    data-image="reseource/img/gallery/gallery_04.jpg"
+                    data-image-mobile="reseource/img/gallery/gallery_04.jpg"
+                    data-thumb-mobile="reseource/img/gallery/gallery_04.jpg"
                     style="display:none">
                 <img alt=""
-                    src="reseource/img/MSK_7206.jpg"
-                    data-image="reseource/img/MSK_7206.jpg"
-                    data-image-mobile="reseource/img/MSK_7206.jpg"
-                    data-thumb-mobile="reseource/img/MSK_7206.jpg"
+                    src="reseource/img/gallery/gallery_05.jpg"
+                    data-image="reseource/img/gallery/gallery_05.jpg"
+                    data-image-mobile="reseource/img/gallery/gallery_05.jpg"
+                    data-thumb-mobile="reseource/img/gallery/gallery_05.jpg"
                     style="display:none">
                     <img alt=""
-                    src="reseource/img/MSK_7206.jpg"
-                    data-image="reseource/img/MSK_7206.jpg"
-                    data-image-mobile="reseource/img/MSK_7206.jpg"
-                    data-thumb-mobile="reseource/img/MSK_7206.jpg"
+                    src="reseource/img/gallery/gallery_06.jpg"
+                    data-image="reseource/img/gallery/gallery_06.jpg"
+                    data-image-mobile="reseource/img/gallery/gallery_06.jpg"
+                    data-thumb-mobile="reseource/img/gallery/gallery_06.jpg"
                     style="display:none">
                 <img alt=""
-                    src="reseource/img/MSK_7206.jpg"
-                    data-image="reseource/img/MSK_7206.jpg"
-                    data-image-mobile="reseource/img/MSK_7206.jpg"
-                    data-thumb-mobile="reseource/img/MSK_7206.jpg"
+                    src="reseource/img/gallery/gallery_07.jpg"
+                    data-image="reseource/img/gallery/gallery_07.jpg"
+                    data-image-mobile="reseource/img/gallery/gallery_07.jpg"
+                    data-thumb-mobile="reseource/img/gallery/gallery_07.jpg"
                     style="display:none">
                 <img alt=""
-                    src="reseource/img/MSK_7206.jpg"
-                    data-image="reseource/img/MSK_7206.jpg"
-                    data-image-mobile="reseource/img/MSK_7206.jpg"
-                    data-thumb-mobile="reseource/img/MSK_7206.jpg"
+                    src="reseource/img/gallery/gallery_08.jpg"
+                    data-image="reseource/img/gallery/gallery_08.jpg"
+                    data-image-mobile="reseource/img/gallery/gallery_08.jpg"
+                    data-thumb-mobile="reseource/img/gallery/gallery_08.jpg"
                     style="display:none">
                 <img alt=""
-                    src="reseource/img/MSK_7206.jpg"
-                    data-image="reseource/img/MSK_7206.jpg"
-                    data-image-mobile="reseource/img/MSK_7206.jpg"
-                    data-thumb-mobile="reseource/img/MSK_7206.jpg"
+                    src="reseource/img/gallery/gallery_09.jpg"
+                    data-image="reseource/img/gallery/gallery_09.jpg"
+                    data-image-mobile="reseource/img/gallery/gallery_09.jpg"
+                    data-thumb-mobile="reseource/img/gallery/gallery_09.jpg"
                     style="display:none">
                 <img alt=""
-                    src="reseource/img/MSK_6909.jpg"
-                    data-image="reseource/img/MSK_6909.jpg"
-                    data-image-mobile="reseource/img/MSK_6909.jpg"
-                    data-thumb-mobile="reseource/img/MSK_6909.jpg"
+                    src="reseource/img/gallery/gallery_10.jpg"
+                    data-image="reseource/img/gallery/gallery_10.jpg"
+                    data-image-mobile="reseource/img/gallery/gallery_10.jpg"
+                    data-thumb-mobile="reseource/img/gallery/gallery_10.jpg"
                     style="display:none">
-            </div> -->
+                    <img alt=""
+                    src="reseource/img/gallery/gallery_11.jpg"
+                    data-image="reseource/img/gallery/gallery_11.jpg"
+                    data-image-mobile="reseource/img/gallery/gallery_11.jpg"
+                    data-thumb-mobile="reseource/img/gallery/gallery_11.jpg"
+                    style="display:none">
+                    <img alt=""
+                    src="reseource/img/gallery/gallery_12.jpg"
+                    data-image="reseource/img/gallery/gallery_12.jpg"
+                    data-image-mobile="reseource/img/gallery/gallery_12.jpg"
+                    data-thumb-mobile="reseource/img/gallery/gallery_12.jpg"
+                    style="display:none">
+            </div>
             <!-- Gallery2-Start -->        
         </div>
         <!-- Gallery-End -->
@@ -306,7 +331,7 @@
             <div class="bank_wrap section" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-out-cubic" data-aos-duration="1200">
                 <p class="tit">For Your Heart</p>
                 <p>저희 두 사람의 소중하고 행복한 첫걸음을<br>함께해 주시는 모든 분들께 감사드리며,<br>전해주시는 따뜻한 마음을 간직하며<br>오래도록 행복하게 잘 살겠습니다.</p>
-                <div class="bank_box">
+                <!-- <div class="bank_box">
                     <div class="bank_cont">
                         <div class="child">
                             <div class="kwon_bg"></div>
@@ -345,53 +370,49 @@
                             </ul>
                         </div>
                     </div>
-                </div>
-
-
-
-
-                <!-- <div class="bank_box">
+                </div> -->
+                <div class="bank_box">
                     <p class="title">신랑측</p>
                     <div class="bank_cont">
-                        <div class="parents">
-                            <p><span>아버지</span>권영진</p>
-                            <p>신협<span>1234-56-1234567</span></p>
-                            <ul>
-                                <li class="kakaopay"><a href="">카카오페이 송금</a></li>
-                                <li class="copybank"><a id="fa_btn" onclick="copyToClipboard();" title="계좌번호 복사">계좌번호 복사</a></li>
-                            </ul>
-                        </div>
                         <div class="child">
                             <p><span>신랑</span>권오훈</p>
                             <p>국민은행<span>857201-00-043507</span></p>
                             <ul>
                                 <li class="kakaopay"><a href="https://qr.kakaopay.com/Ej73LcYGS">카카오페이 송금</a></li>
-                                <li class="copybank"><a id="son_btn" onclick="copyToClipboard();" title="계좌번호 복사">계좌번호 복사</a></li>
+                                <li class="copybank"><a id="kwon_btn" onclick="copyToClipboard();" title="계좌번호 복사">계좌번호 복사</a></li>
                             </ul>                            
+                        </div>
+                        <div class="parents">
+                            <p><span>아버지</span>권영진</p>
+                            <p>신협<span>1307-00-324052</span></p>
+                            <ul>
+                                <li class="kakaopay"><a href="">카카오페이 송금</a></li>
+                                <li class="copybank"><a id="kfa_btn" onclick="copyToClipboard();" title="계좌번호 복사">계좌번호 복사</a></li>
+                            </ul>
+                        </div>                        
+                    </div>   
+                </div>
+                <div class="bank_box" style="background: #f7f3f4;">
+                    <p class="title">신부측</p>
+                    <div class="bank_cont">                        
+                        <div class="child">
+                            <p><span>신랑</span>우한나</p>
+                            <p>카카오뱅크<span>3333-06-5929385</span></p>
+                            <ul>
+                                <li class="kakaopay"><a href="https://qr.kakaopay.com/Ej73LcYGS">카카오페이 송금</a></li>
+                                <li class="copybank"><a id="woo_btn" onclick="copyToClipboard();" title="계좌번호 복사">계좌번호 복사</a></li>
+                            </ul>                            
+                        </div>
+                        <div class="parents">
+                            <p><span>아버지</span>우상오</p>
+                            <p>농협<span>356-1545-2419-53</span></p>
+                            <ul>
+                                <li class="kakaopay"><a href="">카카오페이 송금</a></li>
+                                <li class="copybank"><a id="wfa_btn" onclick="copyToClipboard();" title="계좌번호 복사">계좌번호 복사</a></li>
+                            </ul>
                         </div>
                     </div>   
                 </div>
-                <div class="bank_box">
-                    <p class="title">신부측</p>
-                    <div class="bank_cont">
-                        <div class="parents">
-                            <p><span>아버지</span>권영진</p>
-                            <p>신협<span>1234-56-1234567</span></p>
-                            <ul>
-                                <li class="kakaopay"><a href="">카카오페이 송금</a></li>
-                                <li class="copybank"><a id="fa_btn" onclick="copyToClipboard();" title="계좌번호 복사">계좌번호 복사</a></li>
-                            </ul>
-                        </div>
-                        <div class="child">
-                            <p><span>신랑</span>권오훈</p>
-                            <p>국민은행<span>857201-00-043507</span></p>
-                            <ul>
-                                <li class="kakaopay"><a href="https://qr.kakaopay.com/Ej73LcYGS">카카오페이 송금</a></li>
-                                <li class="copybank"><a id="son_btn" onclick="copyToClipboard();" title="계좌번호 복사">계좌번호 복사</a></li>
-                            </ul>                            
-                        </div>
-                    </div>   
-                </div> -->
             </div>
         <!-- Bank-End -->
     </div>

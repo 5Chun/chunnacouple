@@ -69,6 +69,14 @@ $( document ).ready(function() {
     copyToClipboard('85720100043507');
     alert('계좌번호를 복사하였습니다');
     });
+    $('#wfa_btn').click(function() {
+    copyToClipboard('3561545241953');
+    alert('계좌번호를 복사하였습니다');
+    });
+    $('#woo_btn').click(function() {
+    copyToClipboard('3333065929385');
+    alert('계좌번호를 복사하였습니다');
+    });
 
     // 계좌박스 클릭 버튼
     $(".bank_box .title").click(function(){
