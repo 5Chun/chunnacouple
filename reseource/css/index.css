@@ -56,7 +56,7 @@ body .section {text-align: center; padding: 0 10px; box-sizing: border-box;}
 body p.tit {font-family : 'Parisienne-Regular'; color: #b38f93; font-size: 15px; font-weight: 400;}
 body p, body span, body button, body a, body li {font-family : 'GowunDodum-Regular';}
 
-.intro_bg {width: 100%; height: 1000px; background-image: url(../img/intro_bg.jpg); background-size: cover; background-position-x: center; background-repeat: no-repeat; position: relative;}
+.intro_bg {width: 100%; height: 1000px; background: url(../img/intro_bg.jpg) center -40px no-repeat; background-size: cover; position: relative;}
 .intro_bg p {font-family : 'Golden-Plains-Demo'; color: #f79a19; font-size: 70px;
 	-webkit-transform: rotate(-5deg);
     -moz-transform: rotate(-5deg);
@@ -116,17 +116,18 @@ body p, body span, body button, body a, body li {font-family : 'GowunDodum-Regul
 .bank_wrap .tit {padding: 15px 0 25px; border-bottom: 1px dashed #d7d7d7;}
 .bank_wrap .tit+p {line-height: 35px; margin-top: 25px;}
 .bank_wrap button {border: none; background: none;}
-.bank_box {width: 100%; border: 1px solid #e2e4ea; text-align-last: left; background: #f0f1f3; margin-top: 30px;}
+.bank_box {width: 100%; border: 1px solid #e2e4ea; background: #f0f1f3; margin-top: 30px;}
 .bank_box .title {font-size: 15px; padding: 8px 10px; box-sizing: border-box; display:block;background:url('../img/bank_arrowdown.png') no-repeat 98% center; background-size: 15px 10px; margin-top:-1px;}
 .bank_box .title.on {display:block;background:url('../img/bank_arrowup.png') no-repeat 98% center; background-size: 15px 10px; margin-top:-1px;}
-.bank_box p {font-weight: bold; line-height: 25px;}
+.bank_box p {font-weight: bold; line-height: 25px; text-align: left;}
 .bank_box span {font-size: 13px; margin-right: 5px; font-weight: normal;}
 .bank_cont {display: none;}
-.bank_cont p {display: inline-block; font-size: 13px;}
-.bank_cont p:nth-child(2) {float: right;}
+.bank_cont .name-box {display: flex;}
+.bank_cont .name-box p {font-size: 13px; flex: 1;}
+.bank_cont .name-box p:nth-child(2) {text-align: right;}
 .bank_box p:nth-child(2) span {font-size: 13px; margin-left: 10px; }
 .bank_cont > div {padding: 17px 10px; box-sizing: border-box;}
-.bank_cont div:first-child {border-top: 1px solid #b38f93; border-bottom: 1px solid #b38f93;}
+.bank_cont .child {border-top: 1px solid #b38f93; border-bottom: 1px solid #b38f93;}
 .bank_cont .btn {display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 12px;}
 .bank_cont .btn button {width: 100%; border-radius: 5px; font-weight: bold; font-size: 12px;}
 .bank_cont .btn .kakaopay {background: #fff000;}
